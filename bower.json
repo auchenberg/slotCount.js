@@ -1,0 +1,18 @@
+{
+  "name": "slotCount",
+  "main": "slotCount.js",
+  "version": "1.0.0",
+  "homepage": "http://auchenberg.github.io/slotCount.js",
+  "authors": [
+    "Kenneth Auchenberg <kenneth@auchenberg.dk>"
+  ],
+  "description": "Simple slot machine-like counter, inspired by Google Plus.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
