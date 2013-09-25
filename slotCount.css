@@ -1,0 +1,18 @@
+.slot-count {
+    padding: 0 2px 0 2px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.slot-count .count {
+    -webkit-transition: margin-top 0.4s ease-in;
+        -ms-transition: margin-top 0.4s ease-in;
+            transition: margin-top 0.4s ease-in;
+}
+
+.slot-count .count.reset {
+    -webkit-transition: none;
+        -ms-transition: none;
+            transition: none;
+}

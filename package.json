@@ -1,0 +1,7 @@
+{
+  "name": "slotCount",
+  "version": "1.0.0",
+  "description": "Simple slot machine-like counter, inspired by Google Plus.",
+  "author": "Kenneth Auchenberg <kenneth@auchenberg.dk>",
+  "license": "MIT"
+}
