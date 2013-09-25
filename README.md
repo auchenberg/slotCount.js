@@ -8,8 +8,6 @@ No dependencies. AMD and CJS compatible.
 
 Works in modern browsers. Chrome, Firefox, Safari 6+, IE10+.
 
-![](https://raw.github.com/HubSpot/vex/master/docs/vex.gif)
-
 ## Usage
 
 ```javascript
@@ -40,4 +38,4 @@ setInterval(function() {
 ```
 
 ## Credits
-slotCount.js is a project by [http://kenneth.io](Kenneth Auchenberg)
+slotCount.js is a project by [Kenneth Auchenberg](http://kenneth.io)
