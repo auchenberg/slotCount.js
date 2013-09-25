@@ -1,6 +1,6 @@
 ## slotCount.js
 
-### [Demo](http://auchenberg.github.com/slotCount.js/demo) &nbsp;&nbsp; [Documentation](http://auchenberg.github.com/slotCount.js)
+### [Demo](http://auchenberg.github.com/slotCount.js)
 
 Simple slot machine-like counter, inspired by Google Plus.
 
