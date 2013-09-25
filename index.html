@@ -1,46 +1,40 @@
 <html>
-<head>
-  <title>slotCount.js - Simple slot machine-like counter, inspired by Google Plus.</title>
-  <link rel="stylesheet" href="slotCount.css" />
-  <script src="slotCount.js"></script>
-  <link rel="stylesheet" href="demo.css" />
-  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-</head>
+  <head>
+    <title>slotCount.js - Simple slot machine-like counter, inspired by Google Plus.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="slotCount.css" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
 
-<section class="content">
-  <h1>slotCount.js
-    <div class="counter-box style-google-plus"></div>
-  </h1>
-  <h2>Simple slot machine-like counter, inspired by Google Plus.</h2>
-  <h3>No dependencies. AMD and CJS compatible.</h3>
+    <section class="content">
+      <h1>slotCount.js <div class="counter-box style-google-plus"></div></h1>
+      <h2>Simple slot machine-like counter, inspired by Google Plus.</h2>
+      <h3>No dependencies. AMD and CJS compatible.</h3>
+      <a class="white" href="http://github.com/auchenberg/slotcount.js">
+        <span class="icon-chevron-sign-right icon-large"></span> Get started
+      </a>
+    </section>
 
-  <p>
-    <a class="white" href="http://github.com/auchenberg/slotcount.js">
-      <span class="icon-chevron-sign-right icon-large"></span>
-      Get started
-    </a>
-  </p>
-</section>
+    <footer>
+      <iframe src="http://ghbtns.com/github-btn.html?user=auchenberg&repo=slotCount.js&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="96" height="20"></iframe>
 
-<footer>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="auchenberg" data-related="auchenberg">Tweet</a>
 
-  <iframe src="http://ghbtns.com/github-btn.html?user=auchenberg&repo=slotCount.js&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="96" height="20"></iframe>
+      <a href="https://twitter.com/auchenberg" class="twitter-follow-button" data-show-count="true">Follow @auchenberg</a>
+    </footer>
 
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="auchenberg" data-related="auchenberg">Tweet</a>
+    <script src="slotCount.js"></script>
+    <script>
+      var counter = new slotCount(document.querySelector('.counter-box'), 10);
 
-  <a href="https://twitter.com/auchenberg" class="twitter-follow-button" data-show-count="true">Follow @auchenberg</a>
+      setInterval(function() {
+        var random = Math.floor(Math.random() * 50);
+        counter.set(random);
+      }, 2000);
+    </script>
 
-</footer>
-
-
-<script>
-  var counter = new slotCount(document.querySelector('.counter-box'), 10);
-
-  setInterval(function() {
-    var random = Math.floor(Math.random() * 50);
-    counter.set(random);
-  }, 2000);
-</script>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </body>
 </html>
