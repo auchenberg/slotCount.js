@@ -40,39 +40,6 @@ h2 {
   margin: 1em 0;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 60px;
-  }
-}
-
-@media (max-width: 700px) {
-
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 15px;
-  }
-
-  .style-google-plus {
-    font-size: 30px;
-  }
-
-  .slot-count {
-
-    height: 40px;
-    line-height: 40px;
-    width: 40px;
-  }
-
-}
-
 a {
   display: inline-block;
   background: #428BCA;
@@ -113,4 +80,46 @@ footer > iframe {
 
 footer .twitter-share-button {
   width: 100px !important;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .content {
+    margin: 0 auto;
+  }
+
+  footer {
+    position: static;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .style-google-plus {
+    font-size: 30px;
+  }
+
+  .slot-count {
+
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+  }
+
 }
