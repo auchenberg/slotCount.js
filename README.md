@@ -1,14 +1,12 @@
 ## slotCount.js
 
-### [Demo](http://auchenberg.github.com/slotCount.js/demo) &nbsp;&nbsp; [Documentation](http://auchenberg.github.com/slotCount.js)
+### [Demo](http://auchenberg.github.com/slotCount.js)
 
 Simple slot machine-like counter, inspired by Google Plus.
 
 No dependencies. AMD and CJS compatible.
 
 Works in modern browsers. Chrome, Firefox, Safari 6+, IE10+.
-
-![](https://raw.github.com/HubSpot/vex/master/docs/vex.gif)
 
 ## Usage
 
@@ -40,4 +38,4 @@ setInterval(function() {
 ```
 
 ## Credits
-slotCount.js is a project by [http://kenneth.io](Kenneth Auchenberg)
+slotCount.js is a project by [Kenneth Auchenberg](http://kenneth.io)
