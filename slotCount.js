@@ -11,6 +11,11 @@
 
     slotCount.prototype = {
 
+        dispose: function() {
+            this._removeCount();
+            this.elmContainer.removeChild(this.elmCounter);
+        },
+
         set: function(newCount) {
 
             var hasChanged = newCount !== this.count;
