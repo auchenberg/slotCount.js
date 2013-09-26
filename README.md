@@ -8,6 +8,17 @@ No dependencies. AMD and CJS compatible.
 
 Works in modern browsers. Chrome, Firefox, Safari 6+, IE10+.
 
+## Getting Started
+Can be loaded as:
+
+- A ``<script>`` tag (creating a ```slotCount``` global variable).
+- A CommonJS module..
+- An AMD module.
+
+Installed via:
+- Using bower as ```slotcount```
+- Download from GitHub.
+
 ## Usage
 
 ```javascript
@@ -17,16 +28,9 @@ counter.set(newCount);
 counter.dispose();
 ```
 
-### AMD module
+## Examples
 
-```javascript
-define(['slotCount'], function(slotCount) {
-  var counter = new slotCount(document.querySelector('.counter-box'), 10);
-  ...
-}
-```
-
-### Example: Random number every 2000ms
+### Random number every 2000ms
 
 ```javascript
 var counter = new slotCount(document.querySelector('.counter-box'), 10);
