@@ -97,4 +97,4 @@
         root.slotCount = slotCount;
     }
 
-})(window);
+})(this);
