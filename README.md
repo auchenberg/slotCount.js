@@ -1,23 +1,12 @@
 ## slotCount.js
 
+Component version.
+
+For normal version and installs with bower see the original repository. The original version is available as CommonJS, AMD or in the global scope.
+
 ### [Demo](http://auchenberg.github.com/slotCount.js)
 
 Simple slot machine-like counter, inspired by Google Plus.
-
-No dependencies. AMD and CJS compatible.
-
-Works in modern browsers. Chrome, Firefox, Safari 6+, IE10+.
-
-## Getting Started
-Can be loaded as:
-
-- A ``<script>`` tag (creating a ```slotCount``` global variable).
-- A CommonJS module..
-- An AMD module.
-
-Installed via:
-- Using bower as ```slotcount```
-- Download from GitHub.
 
 ## Usage
 
