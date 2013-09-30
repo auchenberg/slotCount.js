@@ -1,0 +1,17 @@
+{
+  "name": "slotCount.js",
+  "repo": "auchenberg/slotCount.js",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "slotCount.js",
+  "scripts": [
+    "slotCount.js"
+  ],
+  "styles": [
+    "slotCount.css"
+  ]
+}
