@@ -23,7 +23,7 @@ Adding to your HTML file:
 #### with [Component](https://github.com/component/component)
 
     component install auchenberg/slotcount
-    
+
 ## Usage
 
 ```javascript
@@ -35,7 +35,9 @@ counter.dispose();
 
 ## Test
 
-You can test the component implementation of slotCount.js with Mocha in your browser. Make sure you run ```component build``` and then point your browser locally to test/index.html.
+You can test the component implementation of slotCount.js with Mocha in your browser.
+
+Make sure you run ```component build``` and then point your browser locally to test/index.html.
 
 ## Examples
 
