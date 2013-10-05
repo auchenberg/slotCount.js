@@ -8,17 +8,22 @@ No dependencies. AMD and CJS compatible.
 
 Works in modern browsers. Chrome, Firefox, Safari 6+, IE10+.
 
-## Getting Started
-Can be loaded as:
+## Installation
 
-- A ``<script>`` tag (creating a ```slotCount``` global variable).
-- A CommonJS module..
-- An AMD module.
+#### Manually
 
-Installed via:
-- Using bower as ```slotcount```
-- Download from GitHub.
+Adding to your HTML file:
 
+    <script src="/path_to_http_invoke/slotcount.js"></script>
+
+#### with [Bower](http://bower.io)
+
+    bower install slotcount
+
+#### with [Component](https://github.com/component/component)
+
+    component install auchenberg/slotcount
+    
 ## Usage
 
 ```javascript
@@ -43,3 +48,7 @@ setInterval(function() {
 
 ## Credits
 slotCount.js is a project by [Kenneth Auchenberg](http://kenneth.io)
+
+## License
+
+    The MIT License (MIT)
