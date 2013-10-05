@@ -1,4 +1,4 @@
-var slotCount = require('slotCount.js/slotCount.js');
+var slotCount = require('slotCount/slotCount.js');
 var counter;
 
 before(function () {
@@ -9,7 +9,8 @@ before(function () {
   }, 2000);
 });
 
-describe('component test', function () {
+describe('slotCount.js tests', function () {
+
   it('should load slotCount.js as a component', function (done) {
     if (slotCount == null) {
       done(new Error('slotCount is null'));
@@ -21,4 +22,5 @@ describe('component test', function () {
     }
     done();
   });
+
 });
