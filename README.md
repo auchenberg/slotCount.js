@@ -22,7 +22,7 @@ Adding to your HTML file:
 
 #### with [Component](https://github.com/component/component)
 
-    component install auchenberg/slotcount
+    component install auchenberg/slotcount.js
 
 ## Usage
 
