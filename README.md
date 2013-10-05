@@ -33,12 +33,6 @@ counter.set(newCount);
 counter.dispose();
 ```
 
-## Test
-
-You can test the component implementation of slotCount.js with Mocha in your browser.
-
-Make sure you run ```component build``` and then point your browser locally to test/index.html.
-
 ## Examples
 
 ### Random number every 2000ms
@@ -51,6 +45,12 @@ setInterval(function() {
   counter.set(random);
 }, 2000);
 ```
+
+## Test
+
+You can test the component implementation of slotCount.js with Mocha in your browser.
+
+Make sure you run ```component build``` and then point your browser locally to ```test/index.html```.
 
 ## Credits
 slotCount.js is a project by [Kenneth Auchenberg](http://kenneth.io)
